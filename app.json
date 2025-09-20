@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Humor",
+    "slug": "humor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#111118",
+    "splash": {
+      "backgroundColor": "#111118"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#111118"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
