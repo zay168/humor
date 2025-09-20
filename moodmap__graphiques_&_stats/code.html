@@ -1,0 +1,163 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex h-auto min-h-screen w-full flex-col bg-[#111118] dark justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#111118] p-4 pb-2 justify-between">
+          <div class="text-white flex size-12 shrink-0 items-center" data-icon="ArrowLeft" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+            </svg>
+          </div>
+          <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Statistiques</h2>
+        </div>
+        <div class="flex px-4 py-3">
+          <div class="flex h-10 flex-1 items-center justify-center rounded-xl bg-[#282839] p-1">
+            <label
+              class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-xl px-2 has-[:checked]:bg-[#111118] has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-white text-[#9d9db9] text-sm font-medium leading-normal"
+            >
+              <span class="truncate">Jour</span>
+              <input type="radio" name="0a6bb6d2-a322-4419-ba75-0b45d831ae1d" class="invisible w-0" value="Jour" />
+            </label>
+            <label
+              class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-xl px-2 has-[:checked]:bg-[#111118] has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-white text-[#9d9db9] text-sm font-medium leading-normal"
+            >
+              <span class="truncate">Semaine</span>
+              <input type="radio" name="0a6bb6d2-a322-4419-ba75-0b45d831ae1d" class="invisible w-0" value="Semaine" checked="" />
+            </label>
+            <label
+              class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-xl px-2 has-[:checked]:bg-[#111118] has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-white text-[#9d9db9] text-sm font-medium leading-normal"
+            >
+              <span class="truncate">Mois</span>
+              <input type="radio" name="0a6bb6d2-a322-4419-ba75-0b45d831ae1d" class="invisible w-0" value="Mois" />
+            </label>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-4 px-4 py-6">
+          <div class="flex min-w-72 flex-1 flex-col gap-2">
+            <p class="text-white text-base font-medium leading-normal">Humeur moyenne</p>
+            <p class="text-white tracking-light text-[32px] font-bold leading-tight truncate">4.2</p>
+            <div class="flex gap-1">
+              <p class="text-[#9d9db9] text-base font-normal leading-normal">Cette semaine</p>
+              <p class="text-[#0bda68] text-base font-medium leading-normal">+5%</p>
+            </div>
+            <div class="grid min-h-[180px] grid-flow-col gap-6 grid-rows-[1fr_auto] items-end justify-items-center px-3">
+              <div class="border-[#9d9db9] bg-[#282839] border-t-2 w-full" style="height: 50%;"></div>
+              <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Lun</p>
+              <div class="border-[#9d9db9] bg-[#282839] border-t-2 w-full" style="height: 90%;"></div>
+              <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Mar</p>
+              <div class="border-[#9d9db9] bg-[#282839] border-t-2 w-full" style="height: 20%;"></div>
+              <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Mer</p>
+              <div class="border-[#9d9db9] bg-[#282839] border-t-2 w-full" style="height: 70%;"></div>
+              <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Jeu</p>
+              <div class="border-[#9d9db9] bg-[#282839] border-t-2 w-full" style="height: 60%;"></div>
+              <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Ven</p>
+              <div class="border-[#9d9db9] bg-[#282839] border-t-2 w-full" style="height: 90%;"></div>
+              <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Sam</p>
+              <div class="border-[#9d9db9] bg-[#282839] border-t-2 w-full" style="height: 10%;"></div>
+              <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Dim</p>
+            </div>
+          </div>
+          <div class="flex min-w-72 flex-1 flex-col gap-2">
+            <p class="text-white text-base font-medium leading-normal">Tendances de l'humeur</p>
+            <p class="text-white tracking-light text-[32px] font-bold leading-tight truncate">4.5</p>
+            <div class="flex gap-1">
+              <p class="text-[#9d9db9] text-base font-normal leading-normal">Cette semaine</p>
+              <p class="text-[#0bda68] text-base font-medium leading-normal">+3%</p>
+            </div>
+            <div class="flex min-h-[180px] flex-1 flex-col gap-8 py-4">
+              <svg width="100%" height="148" viewBox="-3 0 478 150" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path
+                  d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25V149H326.769H0V109Z"
+                  fill="url(#paint0_linear_1131_5935)"
+                ></path>
+                <path
+                  d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25"
+                  stroke="#9d9db9"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                ></path>
+                <defs>
+                  <linearGradient id="paint0_linear_1131_5935" x1="236" y1="1" x2="236" y2="149" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#282839"></stop>
+                    <stop offset="1" stop-color="#282839" stop-opacity="0"></stop>
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="flex justify-around">
+                <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Lun</p>
+                <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Mar</p>
+                <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Mer</p>
+                <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Jeu</p>
+                <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Ven</p>
+                <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Sam</p>
+                <p class="text-[#9d9db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Dim</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex gap-2 border-t border-[#282839] bg-[#1c1c27] px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9d9db9]" href="#">
+            <div class="text-[#9d9db9] flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9d9db9] text-xs font-medium leading-normal tracking-[0.015em]">Accueil</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9d9db9]" href="#">
+            <div class="text-[#9d9db9] flex h-8 items-center justify-center" data-icon="BookOpen" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M224,48H160a40,40,0,0,0-32,16A40,40,0,0,0,96,48H32A16,16,0,0,0,16,64V192a16,16,0,0,0,16,16H96a24,24,0,0,1,24,24,8,8,0,0,0,16,0,24,24,0,0,1,24-24h64a16,16,0,0,0,16-16V64A16,16,0,0,0,224,48ZM96,192H32V64H96a24,24,0,0,1,24,24V200A39.81,39.81,0,0,0,96,192Zm128,0H160a39.81,39.81,0,0,0-24,8V88a24,24,0,0,1,24-24h64Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9d9db9] text-xs font-medium leading-normal tracking-[0.015em]">Journal</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-white" href="#">
+            <div class="text-white flex h-8 items-center justify-center" data-icon="ChartLine" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM200,176a8,8,0,0,1,0,16H56a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v62.92l34.88-29.07a8,8,0,0,1,9.56-.51l43,28.69,43.41-36.18a8,8,0,0,1,10.24,12.3l-48,40a8,8,0,0,1-9.56.51l-43-28.69L64,155.75V176Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-white text-xs font-medium leading-normal tracking-[0.015em]">Statistiques</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9d9db9]" href="#">
+            <div class="text-[#9d9db9] flex h-8 items-center justify-center" data-icon="Gear" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.75h-.48a73.93,73.93,0,0,1-8.68,0,8,8,0,0,0-5.48,1.74L100.45,215.8a91.57,91.57,0,0,1-15-6.23L82.89,187a8,8,0,0,0-2.64-5.1,74.11,74.11,0,0,1-6.14-6.14,8,8,0,0,0-5.1-2.64L46.43,170.6a91.32,91.32,0,0,1-6.23-15l14.19-17.74a8,8,0,0,0,1.74-5.48,73.93,73.93,0,0,1,0-8.68,8,8,0,0,0-1.74-5.48L40.2,100.45a91.57,91.57,0,0,1,6.23-15L69,82.89a8,8,0,0,0,5.1-2.64,74.11,74.11,0,0,1,6.14-6.14A8,8,0,0,0,82.89,69L85.4,46.43a91.32,91.32,0,0,1,15-6.23l17.74,14.19a8,8,0,0,0,5.48,1.74,73.93,73.93,0,0,1,8.68,0,8,8,0,0,0,5.48-1.74L155.55,40.2a91.57,91.57,0,0,1,15,6.23L173.11,69a8,8,0,0,0,2.64,5.1,74.11,74.11,0,0,1,6.14,6.14,8,8,0,0,0,5.1,2.64l22.58,2.51a91.32,91.32,0,0,1,6.23,15l-14.19,17.74A8,8,0,0,0,199.87,123.66Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9d9db9] text-xs font-medium leading-normal tracking-[0.015em]">Paramètres</p>
+          </a>
+        </div>
+        <div class="h-5 bg-[#1c1c27]"></div>
+      </div>
+    </div>
+  </body>
+</html>
